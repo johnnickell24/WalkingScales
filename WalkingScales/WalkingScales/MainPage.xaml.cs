@@ -13,5 +13,10 @@ namespace WalkingScales
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void mainButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new selectPage());
+        }
+    }
 }
